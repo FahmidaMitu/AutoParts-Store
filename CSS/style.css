@@ -1,0 +1,151 @@
+    /*import fonts from google fonts*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Allan&family=Gugi&family=Lato:wght@100&family=Roboto:wght@100&family=Sofia&display=swap');
+     :root {
+        --light-gray: #2b3032a1;
+        --primary-color: #067e9c9d;
+        --border: #2b303218;
+        --text-color: #ff686b;
+        --roboto: "Roboto", sans-serif;
+        --gugi: "Gugi", cursive;
+        --sofia: "Sofia", cursive;
+    }
+    
+    .primary-color {
+        color: var(--primary-color);
+    }
+    
+    .bg-primary-color {
+        background-color: var(--primary-color)!important;
+    }
+    
+    .text-color {
+        color: var(--text-color);
+    }
+    
+    .lightblue {
+        color: lightblue;
+    }
+    
+    header {
+        background-color: var(--primary-color);
+    }
+    
+    header .site-title {
+        font-family: var(--sofia);
+    }
+    
+    .header-links a {
+        font-size: 0.9em;
+        text-decoration: none;
+        color: rgb(49, 9, 224);
+    }
+    /*navigation Menu**/
+    
+    .navbar-nav {
+        padding: 0.8em 0em;
+    }
+    
+    .navbar-nav.nav-link {
+        font-size: 0.9em;
+        color: var(--light-gray)!important;
+    }
+    
+    .navbar-nav.nav-item.nav-link {
+        padding: 0 1.3em;
+    }
+    
+    .navbar-nav.basket-icon {
+        margin-right: 6.5em !important;
+    }
+    
+    .site-slider-two {
+        position: relative;
+        height: 30%;
+    }
+    
+    .site-slider-two.products {
+        height: 25rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .site-slider-two.products img {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .site-btn-btn-span {
+        padding: 0.8rem 1.9rem;
+    }
+    
+    .footer {
+        background: #2d333f;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 60px 0 20px;
+    }
+    
+    .footer p {
+        color: #ffffff;
+    }
+    
+    .footer h3 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3,
+    .footer-col-4 {
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1 {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    }
+    
+    .footer-col-2 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer-col-2 img {
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-3,
+    .footer-col-4 {
+        -ms-flex-preferred-size: 12%;
+        flex-basis: 12%;
+        text-align: center;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .app-logo {
+        margin-top: 20px;
+    }
+    
+    .app-logo img {
+        width: 140px;
+    }
+    
+    .footer hr {
+        border: none;
+        background: #b5b5b5;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .copyright {
+        text-align: center;
+    }

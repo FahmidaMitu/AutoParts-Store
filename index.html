@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutoParts Store</title>
+    <!--Botstrap CDN-->
+    <link 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+  
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/9aaebb8a2a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css"/>
+</head>   
+<body>  
+
+  <!--header-->
+    <header>
+       <div class="container">
+        <div class="row">
+         <div class="col-md-4 col-sm-12 col-12">
+         </div>
+         <div class="col-md-4 col-12 text-center">
+          <h2 class="my-md-3 site-title">AutoParts Store</h2>
+          </div>
+          <div class="col-md-4 col-12 text-right">
+          <p class="my-md-4 col-12 text-right">
+            <a href="#" class="px-2">LOG IN</a>
+            <a href="#" class="px-1">Register</a>
+          </p>
+         </div>
+        </div>
+        <div class="container-fluid p-sm-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+       </ul>
+    </div>
+    <div class="navbar-nav">
+    <li class="nav-item border rounded-circle mx-2 search-icon"></li>
+    <i class="fas fa-search"></i>
+    </li>
+    <li class="nav-item border rounded-circle mx-2 cart-icon"></li>
+    <i class="fas fa-shopping-cart"></i>
+    </li>
+  </div>
+</nav>
+</div>     
+</header>
+    <main>
+    <div class="container-fluid">
+     <div class="site-slider">
+      <div class="slider-one">
+      <div>
+      <img src="./assets/WhatsApp Image 2021-08-17 at 3.22.40 AM.jpeg" alt="Banner 1"/>
+      </div>
+      </div>
+     </div>
+    </div> 
+    
+    <div class="container-fluid">
+     <div class="site-slider-two px-md-4">
+     <div class="row slider-2 text-center">
+     <div class="col-md-2 products pt-md-5 pt4">
+      <img src="./assets/truck.jpeg" alt="Product 1">
+      <span class="border site-btn btn-span">Truck</span>
+     </div>
+     <div class="col-md-2 products pt-md-5 pt4">
+      <img src="./assets/8254.jpg" alt="Product 2">
+      <span class="border site-btn btn-span">Car</span>
+     </div>
+     <div class="col-md-2 products pt-md-5 pt4">
+      <img src="./assets/bike.jpeg" alt="Product 3">
+      <span class="border site-btn btn-span">Bike</span>
+     </div>
+     </div>
+    </div>
+
+
+    </main> 
+    <footer>
+        <div class="footer">
+      <div class="container_two">
+        <div class="row flex">
+          <div class="footer-col-1">
+            <h3>Download our app</h3>
+            <p>Download App for android & ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="{% static "home/images/play-store.png" %}" alt=""> <img
+              src="{% static "home/images/app-store.png" %}" alt="">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="" alt="" />
+            <p>Our Purpose Is To Sustainable Make the pleasure.</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Membership</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+
+        <p class="copyright">
+          <i class="fa fa-copyright"></i> Copyright 2021-2022 |
+          <a href=""><strong style="color: #eebf00">AutoParts Store</strong></a>
+        </p>
+      </div>
+    </footer>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
